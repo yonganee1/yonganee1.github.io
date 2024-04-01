@@ -1,0 +1,29 @@
+#quiz-container {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 80px;
+    width: 75%;
+}
+
+#question {
+    font-size: 40px;
+}
+
+#feedback {
+    font-size: 24px;
+}
+
+#quiz-form {
+    font-size: 24px;
+}
+
+p{
+    font-size: 100px;
+}
+button{
+    font-size: 25px;
+    margin-top: 40px;
+    margin-right:40px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}

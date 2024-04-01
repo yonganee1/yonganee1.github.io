@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --accent-color: #fde6b5;
+    --font:"Inter Tight";
+    --soft-color: #febd84;
+    --bg-color: #fdfae7 ;
+}
+
+body {
+    font-family: var(--font) ;
+    background-color:var(--bg-color);
+    margin-left: 6em;
+    margin-right: 6em;
+    color:#2e1500;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 120%;
+}
+
+a{
+    color:inherit;
+}
+
+h3{
+    font-size:1.6em;
+}
+
+h1{
+    font-weight: 600;
+    text-align:center;
+    font-size: 4em;
+    padding-bottom: 0.3sem;
+    padding-top: 0.5em;
+}
+h4{
+    font-weight:400;
+    font-size:1.3em;
+    padding: 1em 7em 0em 7em;
+    text-align:center;
+}
+.flex-menu{
+    padding-top:0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.flex-menu-choice{
+    margin-top:0.5em;
+    padding-top: 0em;
+    text-align: center;
+    font-size: 2em;
+    background-color: var(--accent-color);
+    width: 12em;
+    padding-bottom: 0.7em;
+    border-radius: 0.4em;
+    font-weight:500;
+    
+}
+
+button{
+    background-color: var(--soft-color);
+    border-radius: 0.3em;
+    border: 0;
+    font-size:0.8em;
+    padding-left:0.7em;
+    padding-right:0.7em;
+}
+
+dt{
+    padding-top:1em;
+    font-weight: 500;
+}
+.list{
+    padding-top:3em;
+    margin-right: 5em;
+    padding-left: 2em;
+    width:6.5em;
+    font-size: 1.3em;
+    height:100%;    
+}
+
+.list button{
+    font-size:1.4em;
+
+}
+.explain{
+
+    height:100%;
+    width: 70%;
+}
+.explain h1{
+    text-align: left
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    
+}
+
+table {
+  width: 650px;
+  border-collapse: collapse;
+  text-align: center;
+  margin-bottom: 20px;
+    margin-left:1em;
+  font-size: 1.3em;
+}
+
+td {
+  text-align: left;
+	padding-left: 10px;
+    
+    
+}
+ th {
+  text-align: center;
+    
+     
+ }
+.truefalse{
+    width:30%;
+    border: 1.5px solid rgb(0, 00, 0);
+    
+}
+img{
+    width:16em;
+    height:inherit;
+}
+i{
+    font-weight: 400;
+}
+
+.rules{
+    width:37em;
+    border: 0px sold;
+    padding-bottom:0.5em;
+}
+
+.desc{
+    font-size:0.6em;
+    padding: 0 3em 0 3em;
+    font-weight: 400;
+}
