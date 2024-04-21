@@ -16,9 +16,6 @@ body {
     background-color:var(--bg-color);
     color:#2e1500;
     text-align: center;
-    -webkit-appearance: none;
-    -moz-appearance:    none;
-    appearance:         none;
 }
 h1{
     font-size:60px;
@@ -28,6 +25,11 @@ h4 {
     font-size:20px;
 }
 
+button{
+    -webkit-appearance: none;
+    -moz-appearance:    none;
+    appearance:         none;
+}
 
 
 @media (max-width: 990px) {
