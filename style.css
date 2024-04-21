@@ -5,10 +5,15 @@
   
 
 :root{
-    --accent-color: #fde6b5;
+    --accent-color: #cfdbff;
     --font:"Inter Tight";
-    --soft-color: #febd84;
-    --bg-color: #fdfae7 ;
+    --bttn-color: #05386B;
+    --bg-color: #faf5ff ;
+}
+
+h3 {
+    font-weight: 600;
+    color : var(--bttn-color)
 }
 
 body {
@@ -20,10 +25,39 @@ body {
 h1{
     font-size:60px;
     padding-top:40px;
+    padding-bottom:20px;
+    font-weight: 700;
 }
 h4 {
     font-size:20px;
+    padding-bottom:20px;
 }
+button {
+    margin-bottom:20px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border:0px;
+    background-color: var(--bttn-color);
+    color: var(--accent-color)
+}
+p {
+    margin-top:5px;
+}
+
+.flex-menu{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.menu-button{
+    margin-bottom: 20px;
+    padding-top: 10px;
+    width: 300px;
+    background-color: var(--accent-color);
+    border-radius: 8px;;
+}
+
 
 
 @media (max-width: 990px) {
@@ -37,5 +71,8 @@ h4 {
     }
     h4 {
         font-size:15px;
+    }
+    .menu{
+        margin-top:20px;
     }
    }
