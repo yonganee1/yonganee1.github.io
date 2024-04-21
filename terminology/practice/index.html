@@ -10,7 +10,9 @@
   
 </head>
 <body>
+  
   <div id="quiz-container">
+    <button class = "mainpage" type="button" onclick="document.location='../../index.html'">← <u>главная</u></button>
     <p id="question">Загрузка вопроса...</p>
     <form id="quiz-form">
         <!-- здесь создается вопрос -->
@@ -19,11 +21,14 @@
         
         
     </form>
-    <button type="button" onclick="checkAnswer()">Ответить</button>
-    <button type="button" onclick="location.reload()">Следующий</button>
-    <button type="button" onclick="getTheory()">Теория</button>
-    <p id="feedback"></p>
+    <div class = "flex-menu bttns">
+      <button type="button" onclick="checkAnswer()">Ответить</button>
+      <button type="button" onclick="location.reload()">Следующий</button>
+      <button class="theory" type="button" onclick="getTheory()">Теория</button>
+      
     </div>
+    <p id="feedback"></p>
+  </div>
     <script src="script.js"></script>
 
 </body>
