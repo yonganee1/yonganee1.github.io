@@ -1,0 +1,57 @@
+@media (min-width: 990px) {
+    body{
+        margin-left: 15vh;
+        margin-right: 15vh;
+    }
+    h1 {
+        margin-top: 3vh;
+        font-size:10vh;
+        margin-bottom:2vh;  
+    }
+    h4{
+        font-size: 4vh;
+    }
+    .menu-button{
+        margin-bottom: 1vh;
+        padding-top: 3vh;
+        width: 55vh;
+        font-size: 3.5vh;
+        background-color: var(--accent-color);
+        border-radius: 1.5vh;
+    }
+    .menu{
+        margin-top:2vh;
+        margin-left:10vh;
+        margin-right:10vh;
+    }
+    .flex1{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: stretch;
+    }
+    .explain{
+        max-width: 120vh;
+
+    .explain h1{
+        margin-bottom:0;
+    }
+    }
+    p {
+        font-size: 3.25vh;
+        margin-top: 1vh;
+    }
+    .return{
+        margin-top:10vh;
+        margin-right: 10vh;
+    }
+    .mainpage {
+        font-size:4vh;
+    }
+    .rules{
+        font-size:3.4vh;
+    }
+    .rules td {
+        padding-bottom:1.25vh;
+    }
+   }
