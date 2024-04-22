@@ -9,6 +9,8 @@
     --font:"Inter Tight";
     --bttn-color: #05386B;
     --bg-color: #faf5ff ;
+    --th-color: ;
+    --text-color:#00092e;
 }
 
 h3 {
@@ -19,7 +21,10 @@ h3 {
 body {
     font-family: var(--font) ;
     background-color:var(--bg-color);
-    color:#2e1500;
+    color:var(--text-color);
+
+}
+.index {
     text-align: center;
 }
 h1{
@@ -62,11 +67,26 @@ p {
     background-color: var(--bg-color);
     color: var(--bttn-color);
     font-size:24px;
-    font-weight: 200;
+    font-weight: 300;
     max-height:10px;
     margin-top:0;
     padding:0;
     margin-bottom:35px;
+}
+
+a{
+    color: var(--bttn-color)
+}
+
+select {
+    color: var(--bttn-color);
+    background-color: var(--bg-color);
+    border:3;
+    border-color: var(--bttn-color);
+    border-radius: 8px;
+    font-size: 18px;
+    text-align: left;
+    
 }
 
 @media (max-width: 990px) {
@@ -76,14 +96,13 @@ p {
     }
     h1{
         font-size:40px;
-        padding-top:30px;
+        padding-top:10px;
+        padding-bottom:10px;
     }
     h4 {
         font-size:18px;
     }
-    .menu{
-        margin-top:20px;
-    }
+
     .flex-menu {
         margin-left: 2%;
         margin-right: 2%;
@@ -92,5 +111,8 @@ p {
     .menu-button {
         padding-left:2%;
         padding-right:2%;
+    }
+    select {
+        font-weight: 500;
     }
    }

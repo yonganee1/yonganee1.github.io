@@ -6,20 +6,30 @@
     <title>Логические операции булевой логики</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link href="../../style.css" rel="stylesheet">
+    <script src="script.js"></script>
 </head>
 <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <button class = "mainpage" type="button" onclick="document.location='../../index.html'">← <u>главная</u></button>
+
+        
+    </nav>
+    <form>
+        <select id="sections" name="sections" onchange="changeSection()">
+          <option value="inversion.html">Инверсия</option>
+          <option value="conjunction.html" selected>Конъюнкция</option>
+          <option value="disjunction.html">Дизъюнкция</option>
+          <option value="xor.html">Исключающее ИЛИ</option>
+          <option value="implication.html">Импликация</option>
+          <option value="equality.html">Эквиваленция</option>
+          <option value="sheffer.html">Штрих Шеффера</option>
+          <option value="nor.html">Стрелка Пирса</option>
+        </select>
+    </form>  
+
     <div class = "content menu">
-            <div class = "list">
-              <button onclick="document.location='../../index.html'">главная</button>
-              <dt><a href='inversion.html'>Инверсия</a></dt>
-              <dt><a href='conjunction.html'>Конъюнкция</a></dt>
-              <dt><a href='disjunction.html'>Дизъюнкция</a></dt>
-              <dt><a href='xor.html'>Исключающее ИЛИ</a></dt>  
-              <dt><a href='implication.html'>Импликация</a></dt>
-              <dt><a href='equality.html'>Эквиваленция</a></dt>
-              <dt><a href='sheffer.html'>Штрих Шеффера</a></dt>
-              <dt><a href='nor.html'>Стрелка Пирса</a></dt>
-            </div>
+
             <div class='explain'>
                 <h1>Конъюнкция</h1>
                 <p>Логическое умножение. Результат конъюнкции двух утверждений истинен только тогда, когда <b>оба утверждения истинны</b>.</p>
