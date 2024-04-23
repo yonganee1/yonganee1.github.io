@@ -89,6 +89,11 @@ select {
     
 }
 
+.content {
+    display:flex;
+        flex-wrap: wrap;
+}
+
 @media (max-width: 990px) {
     body{
         margin-left: 5%;
@@ -114,5 +119,20 @@ select {
     }
     select {
         font-weight: 500;
+    }
+    .numer{
+        width: 30vh;
+        font-size: 3.25vh;
+    }
+    .truefalse{
+        border-width: 0.3vh;
+        padding-left: 1.5vh;
+        font-size: 3vh;
+        border-color: var(--text-color);
+        width: 8vh;
+        max-height: 2vh;
+    }   
+    img {
+        width: 30vh;
     }
    }

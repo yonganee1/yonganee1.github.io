@@ -1,3 +1,12 @@
+:root{
+    --accent-color: #cfdbff;
+    --font:"Inter Tight";
+    --bttn-color: #05386B;
+    --bg-color: #faf5ff ;
+    --th-color: ;
+    --text-color:#00092e;
+}
+
 body {
     text-align: left;
 }

@@ -1,3 +1,12 @@
+:root{
+    --accent-color: #cfdbff;
+    --font:"Inter Tight";
+    --bttn-color: #05386B;
+    --bg-color: #faf5ff ;
+    --th-color: ;
+    --text-color:#00092e;
+}
+
 @media (min-width: 990px) {
     body{
         margin-left: 15vh;
@@ -32,10 +41,9 @@
     }
     .explain{
         max-width: 120vh;
-
+    }
     .explain h1{
         margin-bottom:0;
-    }
     }
     p {
         font-size: 3.25vh;
@@ -53,5 +61,43 @@
     }
     .rules td {
         padding-bottom:1.25vh;
+    }
+    .explain h3 {
+        font-size: 5vh;
+    }    
+    
+    img {
+        width:40vh;
+
+    }
+    .numer{
+        width: 30vh;
+        font-size: 3.4vh;
+    }
+    .truefalse{
+        border-width: 0.3vh;
+        padding-left: 1.5vh;
+        font-size: 4vh;
+        border-color: var(--text-color);
+        width: 12vh;
+        max-height: 2vh;
+    }
+    .content{
+        margin-bottom: 2vh;
+    }
+    .nava {
+        margin-top: 12vh;
+        margin-right: 8vh
+    }
+    select {
+        color: var(--bttn-color);
+        background-color: var(--bg-color);
+        border-color: var(--bttn-color);
+        border-radius: 2vh;
+        font-size: 3.25vh;
+        text-align: left;
+    }
+    .flex1 {
+        min-height: 15vh;
     }
    }
