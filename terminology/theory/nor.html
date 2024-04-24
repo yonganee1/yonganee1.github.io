@@ -5,29 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Логические операции булевой логики</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link href="../../style.css" rel="stylesheet">
+    <link href="../../style.css" rel="stylesheet"><link href="../../bs.css" rel="stylesheet">
     <script src="script.js"></script>
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <button class = "mainpage" type="button" onclick="document.location='../../index.html'">← <u>главная</u></button>
-        
-    </nav>
-    <form>
-        <select id="sections" name="sections" onchange="changeSection()">
-          <option value="inversion.html">Инверсия</option>
-          <option value="conjunction.html" >Конъюнкция</option>
-          <option value="disjunction.html" >Дизъюнкция</option>
-          <option value="xor.html">Исключающее ИЛИ</option>
-          <option value="implication.html">Импликация</option>
-          <option value="equality.html">Эквиваленция</option>
-          <option value="sheffer.html">Штрих Шеффера</option>
-          <option value="nor.html" selected>Стрелка Пирса</option>
-        </select>
-    </form> 
+<body> 
+    
+    
 
-    <div class = "content">
-
+    <div class = "content flex1">
+        <div class = "nava"><nav class="navbar navbar-expand-lg navbar-light">
+            <button class = "mainpage" type="button" onclick="document.location='../../index.html'">← <u>главная</u></button>
+            
+        </nav>
+        <form>
+            <select id="sections" name="sections" onchange="changeSection()">
+              <option value="inversion.html" >Инверсия</option>
+              <option value="conjunction.html" >Конъюнкция</option>
+              <option value="disjunction.html" >Дизъюнкция</option>
+              <option value="xor.html"selected>Исключающее ИЛИ</option>
+              <option value="implication.html">Импликация</option>
+              <option value="equality.html">Эквиваленция</option>
+              <option value="sheffer.html">Штрих Шеффера</option>
+              <option value="nor.html">Стрелка Пирса</option>
+            </select>
+        </form> </div>
             <div class='explain'>
                 <h1>Стрелка Пирса</h1>
                 <p>Отрицание дизъюкции. Результат истинный тогда и только тогда, когда <b>обе логические переменные принимают ложные значения.</b> </p>
@@ -35,14 +36,15 @@
                 <p>В большинстве языков программирования реализуется через операторы дизъюнкции и инверсии. В учебной литературе обычно используются <b>↓</b>.</p>
                 <table>
                         <tr>
-                            <td><b>A</b> ↓ <b>B</b></td>
+                            <td class = 'numer'><b>A</b> ↓ <b>B</b></td>
                             
                         </tr>
                     </table>
+                    <br>
                 <h3>Таблица истинности </h3>
                 <p>В таблице отображены результаты применения стрелки Пирса при разных значениях логических переменных.</p>
                 <div class='content'>
-                    <table class = 'truefalse'>
+                    <table>
                         <tr class = 'truefalse'>
                             <td class = 'truefalse'>A</td>
                             <td class = 'truefalse'>B</td>

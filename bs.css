@@ -40,7 +40,7 @@
         align-content: stretch;
     }
     .explain{
-        max-width: 120vh;
+        max-width: 100vh;
     }
     .explain h1{
         margin-bottom:0;
@@ -77,9 +77,11 @@
     .truefalse{
         border-width: 0.3vh;
         padding-left: 1.5vh;
+        padding-right: 1.5vh;
         font-size: 4vh;
         border-color: var(--text-color);
-        width: 12vh;
+        max-width: 14vh;
+        min-width: 10vh;
         max-height: 2vh;
     }
     .content{
@@ -100,4 +102,5 @@
     .flex1 {
         min-height: 15vh;
     }
+
    }

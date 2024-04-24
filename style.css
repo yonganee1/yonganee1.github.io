@@ -121,18 +121,19 @@ select {
         font-weight: 500;
     }
     .numer{
-        width: 30vh;
-        font-size: 3.25vh;
+        width: 70px;
     }
     .truefalse{
-        border-width: 0.3vh;
-        padding-left: 1.5vh;
-        font-size: 3vh;
+        border-width: 2px;
+        padding-left: 5px;
+        font-size: 16px;
         border-color: var(--text-color);
-        width: 8vh;
+        min-width:40px;
+        max-width:60px;
         max-height: 2vh;
+        padding-right:5px;
     }   
     img {
-        width: 30vh;
+        width: 180px;
     }
    }
